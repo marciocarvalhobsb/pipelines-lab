@@ -1,0 +1,24 @@
+name: "Estrutura de Diretórios e Arquivos"
+
+on:
+  push:
+  branches: [main]
+  workflow_dispatch:
+
+env:
+NODE-VERSIO: '18' 
+
+Jobs:
+  demonstrando-Estrutura:
+    name: "Desmonstrar Estrutura Básica"
+    runs-on: ubuntu-latest
+
+  steps:
+    - name: Checkout do Código
+      uses: actions/Checkout@v4
+
+       
+
+
+
+   
